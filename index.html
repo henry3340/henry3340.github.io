@@ -18,22 +18,22 @@
 <table border="1">
    <tr>
      <th>名称</th>
-     <th>官网</th>
+     <th>官q</th>
      <th>性质</th>
    </tr>
    <tr>
-     <td>C语言网</td>
-     <td>http://c.biang.net/</td>
+     <td>C语言</td>
+     <td>htrrrrt/</td>
      <td>bubu</td>
    </tr>
     <tr>
      <td>不度</td>
-     <td>http://www.au.com/</td>
+     <td>hom/</td>
      <td>不索</td>
      </tr>
    <tr>
       <td>不当</td>
-     <td>http://www.daan.com/</td>
+     <td>httt m/</td>
       <td>不书</td>
     </tr>
 </table>    
@@ -41,52 +41,3 @@
     
 </body>
 </html>
-
-
-	<!-- 次数统计 start -->
-	<center>
-	<script>
-	var caution = false
-	        function setCookie(name, value, expires, path, domain, secure) {
-	            var curCookie = name + "=" + escape(value) + ((expires) ? "; expires=" + expires.toGMTString() : "") + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + ((secure) ? "; secure" : "")
-	            if (!caution || (name + "=" + escape(value)).length <= 4000)
-	                document.cookie = curCookie
-	            else if (confirm("Cookie exceeds 4KB and will be cut!"))
-	                document.cookie = curCookie
-        }
-	        function getCookie(name) {
-	            var prefix = name + "="
-	            var cookieStartIndex = document.cookie.indexOf(prefix)
-	            if (cookieStartIndex == -1)
-	                return null
-	            var cookieEndIndex = document.cookie.indexOf(";", cookieStartIndex + prefix.length)
-	            if (cookieEndIndex == -1)
-	                cookieEndIndex = document.cookie.length
-	            return unescape(document.cookie.substring(cookieStartIndex + prefix.length,
-	                cookieEndIndex))
-	        }
-	        function deleteCookie(name, path, domain) {
-	            if (getCookie(name)) {
-	                document.cookie = name + "=" + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + "; expires=Thu, 01-Jan-70 00:00:01 GMT"
-	            }
-	        }
-	        function fixDate(date) {
-	            var base = new Date(0)
-	            var skew = base.getTime()
-	            if (skew > 0)
-	                date.setTime(date.getTime() - skew)
-	        }
-	        var now = new Date()
-	        fixDate(now)
-	        now.setTime(now.getTime() + 730 * 24 * 60 * 60 * 1000)
-	        var visits = getCookie("counter")
-	        if (!visits)
-	            visits = 1
-	        else
-	            visits = parseInt(visits) + 1
-	        setCookie("counter", visits, now)
-	        document.write("<font size=2color=black>No No，ni似帝：" + visits + " 个问的ke")
-	 
-	    </script>  </center>
-	<!-- 次数统计 over -->
-
